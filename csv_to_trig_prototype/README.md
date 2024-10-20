@@ -48,7 +48,7 @@
 
 ### (2) Call the script:
 ```python csv_2_trig.py kennedys.csv```
-
+<p>This script iterates over the triples from the Kennedy ontology, a training model for semantic web programming, which have been written to a CSV file with randomly assigned named graphs in column 1 and adds them to a rdflib Conjunctive Graph structure.  Once complete, this graph is serialized to a TRIG file.</p>
 ### (3) Crack open the .trig file to view the quads.
 <a href="https://github.com/johngugliotti/semanticwebpgm/blob/main/csv_to_trig_prototype/kennedys.trig">kennedys.trig</a>
 
