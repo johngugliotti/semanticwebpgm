@@ -1,5 +1,7 @@
 ## CSV 2 TRIG Transformation
 
+### (1) Jam your RDF into a CSV file for this example. 
+
 <table>
 <tr><b>
     <td>Column Name</td>
@@ -7,22 +9,22 @@
 </b></tr>
 <tr>
   <td>graph_uri</td>
-  <td>URI with or without the enclosing &lt; &gt; </td>
+  <td>Named Graph URI with or without the enclosing &lt; &gt; </td>
 </tr>
 <tr>
   <td>subject_uri</td>
-  <td>URI with or without the enclosing &lt; &gt; </td>
+  <td>Object URI with or without the enclosing &lt; &gt; </td>
 </tr>
 <tr>
   <td>property_uri</td>
-  <td>URI with or without the enclosing &lt; &gt; </td>
+  <td>Predicate URI with or without the enclosing &lt; &gt; </td>
 </tr>
 <tr>
   <td>object_uri_or_literal_indicator</td>
   <td>
     <table>
     <tr>
-      <td>URI with or without the enclosing &lt; &gt; </td>
+      <td>Object URI with or without the enclosing &lt; &gt; </td>
     </tr>
     <tr>
       <td>L to indicate a literal</td>
@@ -43,3 +45,10 @@
   <td>language bigraph if needed</td>
 </tr>
 </table>
+
+### (2) Call the script:
+```python csv_2_trig.py kennedys.csv```
+
+### (3) Crack open the .trig file to view the quads.
+```kennedys.trig```
+
