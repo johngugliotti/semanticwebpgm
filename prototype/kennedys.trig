@@ -1,0 +1,2125 @@
+@prefix ns1: <https://example.com/> .
+@prefix ns2: <http://topbraid.org/examples/kennedys#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:graph_4 {
+    ns2:AlinaMojica ns2:lastName "Mojica" .
+
+    ns2:AnthonyShriver a ns2:Person ;
+        ns2:birthYear "1965" .
+
+    ns2:AristotleOnassis a ns2:Person .
+
+    ns2:ArnoldSchwarzenegger ns2:birthYear "1947" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/Arnold_Schwarzenegger_2004-01-30.jpg> ;
+        ns2:profession ns2:body-builder .
+
+    ns2:BostonUniversity a owl:NamedIndividual ;
+        rdfs:label "Boston University" .
+
+    ns2:Brown ns2:ivyLeague "True" .
+
+    ns2:CarolineKennedy ns2:birthYear "1957" ;
+        ns2:parent ns2:JohnKennedy .
+
+    ns2:CarolynBessette a ns2:Person ;
+        ns2:deathYear "1999" ;
+        ns2:firstName "Carolyn" ;
+        ns2:name "Carolyn Bessette" ;
+        ns2:profession ns2:PR .
+
+    ns2:CartHood ns2:spouse ns2:AmandaSmith .
+
+    ns2:ChristopherLawford a ns2:Person .
+
+    ns2:DavidKennedy a ns2:Person ;
+        ns2:profession ns2:writer .
+
+    ns2:DouglasKennedy ns2:name "Douglas Kennedy" .
+
+    ns2:EdwardKennedy ns2:birthYear "1932" ;
+        ns2:name "Edward Kennedy" .
+
+    ns2:EdwinSchlossberg a owl:NamedIndividual ;
+        ns2:gender ns2:male ;
+        ns2:name "Edwin Schlossberg" .
+
+    ns2:EmilyBlack ns2:firstName "Emily" .
+
+    ns2:EuniceKennedy ns2:middleName "Mary" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/180px-Eunice-zurab.jpg> .
+
+    ns2:JacquelineBouvier ns2:birthYear "1929" ;
+        ns2:child ns2:JohnKennedyJr ;
+        ns2:gender ns2:female .
+
+    ns2:JamesMcKelvy a ns2:Person ;
+        ns2:middleName "Peter" .
+
+    ns2:JeanOlsson ns2:firstName "Jean" ;
+        ns2:name "Jean Olsson" .
+
+    ns2:JosephKennedy ns2:child ns2:JeanKennedy .
+
+    ns2:KathleenAKennedy ns2:firstName "Kathleen" ;
+        ns2:parent ns2:RoseFitzgerald .
+
+    ns2:KymSmith ns2:firstName "Kym" ;
+        ns2:lastName "Smith" .
+
+    ns2:LindaPotter a ns2:Person .
+
+    ns2:MariaShriver ns2:profession ns2:reporter .
+
+    ns2:MaryCKennedy ns2:birthYear "1956" ;
+        ns2:spouse ns2:PaulHill .
+
+    ns2:MaryRichardson ns2:birthYear "1960" ;
+        ns2:gender ns2:female ;
+        ns2:name "Mary Richardson" .
+
+    ns2:MatthewKennedy a owl:NamedIndividual ;
+        ns2:lastName "Kennedy" ;
+        ns2:middleName "Maxwell" ;
+        ns2:name "Matthew Kennedy" .
+
+    ns2:MichaelKennedy ns2:birthYear "1958" ;
+        ns2:deathYear "1997" ;
+        ns2:parent ns2:EthelSkakel .
+
+    ns2:MollyStark ns2:lastName "Stark" .
+
+    ns2:NYU a ns2:College .
+
+    ns2:PatriciaKennedy ns2:deathYear "2006" ;
+        ns2:name "Patricia Kennedy" ;
+        ns2:profession ns2:home-maker .
+
+    ns2:PatrickBKennedy a owl:NamedIndividual ;
+        ns2:name "Patrick B. Kennedy" .
+
+    ns2:PatrickJKennedy ns2:birthYear "1967" .
+
+    ns2:PeterLawford ns2:almaMater ns2:Columbia ;
+        ns2:child ns2:RobinLawford .
+
+    ns2:RobertKennedy ns2:child ns2:ChristopherKennedy,
+            ns2:JosephKennedyII,
+            ns2:KathleenHKennedy ;
+        ns2:deathYear "1968" ;
+        ns2:name "Robert Kennedy" .
+
+    ns2:RobertKennedyJr ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/250px-RobertFKennedyJr.jpg> ;
+        ns2:profession ns2:professor .
+
+    ns2:RobertPenderJr ns2:gender ns2:male ;
+        ns2:lastName "Pender" .
+
+    ns2:RobertShriver ns2:child ns2:MarkShriver ;
+        ns2:lastName "Shriver" .
+
+    ns2:RobertShriverIII ns2:gender ns2:male ;
+        ns2:profession ns2:producer .
+
+    ns2:RoryKennedy ns2:birthYear "1968" ;
+        ns2:gender ns2:female .
+
+    ns2:RoseKennedy ns2:birthYear "1918" ;
+        ns2:middleInitial "M" .
+
+    ns2:RosemontCollege ns2:ivyLeague "False" .
+
+    ns2:SheilaRauch a owl:NamedIndividual ;
+        ns2:name "Sheila Rauch" .
+
+    ns2:StephenSmith ns2:profession ns2:campaign-organizer .
+
+    ns2:StephenSmithJr ns2:firstName "Stephen" .
+
+    ns2:SydneyLawford ns2:gender ns2:female ;
+        ns2:lastName "Lawford" .
+
+    ns2:TimothyShriver ns2:gender ns2:male ;
+        ns2:profession ns2:teacher .
+
+    ns2:UniversityOfConnecticut a owl:NamedIndividual ;
+        ns2:ivyLeague "False" .
+
+    ns2:UniversityOfVirginia a owl:NamedIndividual .
+
+    ns2:UniversityOfWisconsin a ns2:College .
+
+    ns2:VictoriaGifford a owl:NamedIndividual .
+
+    ns2:VictoriaReggie ns2:lastName "Reggie" .
+
+    ns2:WesleyanUniversity rdfs:label "Wesleyan University" .
+
+    ns2:WilliamCavendish a owl:NamedIndividual ;
+        ns2:birthYear "1917" .
+
+    ns2:WilliamSmith ns2:gender ns2:male .
+
+    ns2:Yale rdfs:label "Yale" .
+
+    ns2:actor a owl:NamedIndividual .
+
+    ns2:ambassador a owl:NamedIndividual .
+
+    ns2:army a ns2:Profession,
+            owl:NamedIndividual .
+
+    ns2:child a owl:ObjectProperty .
+
+    ns2:deathYear rdfs:range xsd:int .
+
+    ns2:district-attorney a owl:NamedIndividual .
+
+    ns2:firstName a owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+    ns2:gender a owl:ObjectProperty .
+
+    ns2:middleInitial a owl:DatatypeProperty .
+
+    ns2:middleName rdfs:label "middle name" .
+
+    ns2:navy rdfs:label "navy" .
+
+    ns2:parent rdfs:label "parent" .
+
+    ns2:president a owl:NamedIndividual .
+
+    ns2:spouse rdfs:label "has spouse" .
+
+    ns2:suffix rdfs:domain ns2:Person .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/175px-Whitehouseportraitjackie_curvecorrected.jpg> a owl:NamedIndividual .
+
+    ns2:AmandaSmith ns2:birthYear "1967" .
+
+    ns2:ChristopherKennedy a ns2:Person .
+
+    ns2:EdwardKennedyJr ns2:parent ns2:VirginiaBennett ;
+        ns2:spouse ns2:KatherineGershman .
+
+    ns2:JeanKennedy ns2:gender ns2:female ;
+        ns2:lastName "Kennedy" ;
+        ns2:name "Jean Kennedy" .
+
+    ns2:JohnKennedyJr ns2:birthYear "1960" .
+
+    ns2:JosephKennedyII a ns2:Person ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/160px-Joe_Kennedy.jpg> ;
+        ns2:profession ns2:congressman .
+
+    ns2:KatherineGershman ns2:spouse ns2:EdwardKennedyJr .
+
+    ns2:KathleenHKennedy a owl:NamedIndividual ;
+        ns2:lastName "Kennedy" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/Kathleen_Kennedy_Townsend.jpg> .
+
+    ns2:MarkShriver a ns2:Person,
+            owl:NamedIndividual ;
+        ns2:middleName "Kennedy" ;
+        ns2:spouse ns2:JeannieRipp .
+
+    ns2:PaulHill ns2:middleInitial "M" .
+
+    ns2:RoseFitzgerald ns2:profession ns2:home-maker .
+
+    ns2:campaign-organizer a ns2:Profession .
+
+    ns2:congressman a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/180px-Eunice-zurab.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/Arnold_Schwarzenegger_2004-01-30.jpg> a owl:NamedIndividual .
+
+    ns2:Person a owl:Class ;
+        rdfs:subClassOf owl:Thing .
+}
+
+ns1:graph_6 {
+    <http://topbraid.org/examples/kennedys> a owl:Ontology .
+
+    ns2:AlfredTucker ns2:name "Alfred Tucker" .
+
+    ns2:AnneKelly ns2:lastName "Kelly" .
+
+    ns2:GeorgetownUniversity ns2:ivyLeague "False" .
+
+    ns2:JeffreyRuhe a ns2:Person ;
+        ns2:gender ns2:male .
+
+    ns2:KaraKennedy ns2:lastName "Kennedy" .
+
+    ns2:MaryKKennedy a ns2:Person .
+
+    ns2:Patriarch a owl:Class .
+
+    ns2:SheilaBerner ns2:firstName "Sheila" ;
+        ns2:middleName "Sinclair" .
+
+    ns2:almaMater rdfs:label "alma mater" .
+
+    ns2:attorney a ns2:Profession .
+
+    ns2:banker a owl:NamedIndividual .
+
+    ns2:broadcaster a owl:NamedIndividual .
+
+    ns2:cabinet-secretary rdfs:label "cabinet-secretary" .
+
+    ns2:governor rdfs:label "governor" .
+
+    ns2:ivyLeague rdfs:label "is ivy league" .
+
+    ns2:peace-corp a owl:NamedIndividual .
+
+    ns2:photographer rdfs:label "photographer" .
+
+    ns2:publisher rdfs:label "publisher" .
+
+    ns2:volunteer a ns2:Profession .
+
+    ns2:ArnoldSchwarzenegger ns2:almaMater ns2:UniversityOfWisconsin ;
+        ns2:firstName "Arnold" .
+
+    ns2:CarolineKennedy ns2:profession ns2:non-profit ;
+        ns2:spouse ns2:EdwinSchlossberg .
+
+    ns2:CartHood ns2:middleInitial "H" .
+
+    ns2:ChristopherLawford ns2:parent ns2:PatriciaKennedy ;
+        ns2:spouse ns2:JeanOlsson .
+
+    ns2:Columbia ns2:ivyLeague "True" .
+
+    ns2:EdwardKennedy a ns2:Person .
+
+    ns2:EmilyBlack ns2:birthYear "1957" .
+
+    ns2:EthelSkakel ns2:almaMater ns2:ManhattanvilleCollege ;
+        ns2:child ns2:MatthewKennedy,
+            ns2:MichaelKennedy,
+            ns2:RoryKennedy ;
+        ns2:firstName "Ethel" ;
+        ns2:spouse ns2:RobertKennedy .
+
+    ns2:Harvard a ns2:College .
+
+    ns2:JamesMcKelvy a owl:NamedIndividual ;
+        ns2:gender ns2:male .
+
+    ns2:KathleenAKennedy ns2:middleName "Agnes" .
+
+    ns2:MaryCKennedy ns2:lastName "Kennedy" ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:MaryRichardson ns2:lastName "Richardson" .
+
+    ns2:MollyStark a owl:NamedIndividual .
+
+    ns2:NYU a owl:NamedIndividual .
+
+    ns2:PatrickBKennedy ns2:middleInitial "B" ;
+        ns2:parent ns2:JacquelineBouvier,
+            ns2:JohnKennedy .
+
+    ns2:RobertKennedyJr ns2:gender ns2:male ;
+        ns2:lastName "Kennedy" .
+
+    ns2:RobertPenderJr a ns2:Person,
+            owl:NamedIndividual .
+
+    ns2:RobertShriverIII a ns2:Person .
+
+    ns2:RobinLawford a ns2:Person ;
+        ns2:birthYear "1961" ;
+        ns2:parent ns2:PeterLawford .
+
+    ns2:RosemontCollege a ns2:College ;
+        rdfs:label "Rosemont College" .
+
+    ns2:StephenSmith ns2:middleInitial "E" .
+
+    ns2:StephenSmithJr a owl:NamedIndividual .
+
+    ns2:SydneyLawford ns2:middleName "Maleia" .
+
+    ns2:TimothyShriver ns2:parent ns2:EuniceKennedy .
+
+    ns2:VirginiaBennett ns2:almaMater ns2:ManhattanvilleCollege ;
+        ns2:middleInitial "J" .
+
+    ns2:WilliamCavendish ns2:deathYear "1944" ;
+        ns2:middleName "John Robert" ;
+        ns2:name "William Cavendish" .
+
+    ns2:WilliamSmith a owl:NamedIndividual ;
+        ns2:middleInitial "K" ;
+        ns2:profession ns2:doctor .
+
+    ns2:Yale a owl:NamedIndividual .
+
+    ns2:actor rdfs:label "actor" .
+
+    ns2:district-attorney rdfs:label "district-attorney" .
+
+    ns2:non-profit a ns2:Profession .
+
+    ns2:president rdfs:label "president" .
+
+    ns2:reporter a ns2:Profession .
+
+    ns2:suffix a owl:DatatypeProperty .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/160px-Joe_Kennedy.jpg> a owl:NamedIndividual .
+
+    ns2:AmandaSmith a ns2:Person ;
+        ns2:name "Amanda Smith" .
+
+    ns2:ChristopherKennedy a owl:NamedIndividual ;
+        ns2:birthYear "1963" .
+
+    ns2:EdwardKennedyJr ns2:birthYear "1961" ;
+        ns2:lastName "Kennedy" .
+
+    ns2:EdwinSchlossberg ns2:birthYear "1945" .
+
+    ns2:EuniceKennedy a ns2:Person,
+            owl:NamedIndividual .
+
+    ns2:JacquelineBouvier ns2:profession ns2:home-maker ;
+        ns2:spouse ns2:AristotleOnassis .
+
+    ns2:JeanKennedy ns2:child ns2:KymSmith .
+
+    ns2:JeanOlsson a ns2:Person,
+            owl:NamedIndividual .
+
+    ns2:JohnKennedyJr ns2:firstName "John" ;
+        ns2:parent ns2:JohnKennedy .
+
+    ns2:JosephKennedyII ns2:spouse ns2:SheilaRauch .
+
+    ns2:KatherineGershman ns2:middleName "Anne" .
+
+    ns2:KymSmith ns2:middleInitial "M" .
+
+    ns2:MarkShriver ns2:middleInitial "K" .
+
+    ns2:MatthewKennedy a ns2:Person .
+
+    ns2:MichaelKennedy ns2:spouse ns2:VictoriaGifford .
+
+    ns2:PatriciaKennedy a ns2:Person .
+
+    ns2:PaulHill ns2:birthYear "1954" ;
+        ns2:gender ns2:male ;
+        ns2:lastName "Hill" .
+
+    ns2:RoryKennedy ns2:lastName "Kennedy" ;
+        ns2:name "Rory Kennedy" .
+
+    ns2:SheilaRauch ns2:lastName "Rauch" ;
+        ns2:middleInitial "B" .
+
+    ns2:UniversityOfWisconsin a owl:NamedIndividual .
+
+    ns2:JohnKennedy a owl:NamedIndividual ;
+        ns2:middleInitial "F" ;
+        ns2:middleName "Fitzgerald" ;
+        ns2:parent ns2:JosephKennedy ;
+        ns2:profession ns2:navy .
+
+    ns2:JosephKennedy ns2:almaMater ns2:Harvard ;
+        ns2:profession ns2:producer .
+
+    ns2:RobertKennedy ns2:parent ns2:JosephKennedy,
+            ns2:RoseFitzgerald ;
+        ns2:profession ns2:attorney-general .
+
+    ns2:RoseFitzgerald ns2:middleName "Elizabeth" .
+}
+
+ns1:graph_7 {
+    ns2:AndrewCuomo a owl:NamedIndividual ;
+        ns2:middleName "Mark" .
+
+    ns2:Gender a owl:Class .
+
+    ns2:MarkBailey a owl:NamedIndividual ;
+        ns2:birthYear "1967" ;
+        ns2:gender ns2:male ;
+        ns2:lastName "Bailey" .
+
+    ns2:UniversityOfNewMexico rdfs:label "University of New Mexico" .
+
+    ns2:VictoriaLawford ns2:name "Victoria Lawford" .
+
+    ns2:VictoriaStrauss ns2:lastName "Strauss" ;
+        ns2:spouse ns2:MatthewKennedy .
+
+    ns2:photo a owl:ObjectProperty .
+
+    ns2:senator a ns2:Profession .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/160px-Patrick_J._Kennedy,.JPG> a owl:NamedIndividual .
+
+    ns2:AlfredTucker ns2:firstName "Alfred" .
+
+    ns2:AnthonyShriver ns2:spouse ns2:AlinaMojica .
+
+    ns2:BostonUniversity ns2:ivyLeague "False" .
+
+    ns2:DavidKennedy ns2:middleName "Anthony" .
+
+    ns2:DouglasKennedy ns2:middleInitial "H" .
+
+    ns2:GeorgeWashingtonU a ns2:College .
+
+    ns2:JeffreyRuhe ns2:firstName "Jeffrey" .
+
+    ns2:PatrickJKennedy ns2:gender ns2:male .
+
+    ns2:RobertShriver ns2:almaMater ns2:Yale ;
+        ns2:birthYear "1915" ;
+        ns2:child ns2:TimothyShriver ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/2002F_Shriver12.jpg> .
+
+    ns2:RoseKennedy ns2:name "Rose Kennedy" ;
+        ns2:parent ns2:JosephKennedy .
+
+    ns2:WesleyanUniversity a ns2:College ;
+        ns2:ivyLeague "False" .
+
+    ns2:army rdfs:label "army" .
+
+    ns2:broadcaster rdfs:label "broadcaster" .
+
+    ns2:cabinet-secretary a owl:NamedIndividual .
+
+    ns2:editor a ns2:Profession ;
+        rdfs:label "editor" .
+
+    ns2:middleName rdfs:domain ns2:Person .
+
+    ns2:parent rdfs:domain ns2:Person ;
+        rdfs:range ns2:Person .
+
+    ns2:teacher a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/2002F_Shriver12.jpg> a owl:NamedIndividual .
+
+    ns2:AlinaMojica ns2:name "Alina Mojica" .
+
+    ns2:CarolynBessette ns2:profession ns2:model .
+
+    ns2:ChristopherLawford ns2:gender ns2:male ;
+        ns2:profession ns2:actor .
+
+    ns2:EmilyBlack ns2:gender ns2:female ;
+        ns2:middleName "Ruth" .
+
+    ns2:JamesMcKelvy ns2:spouse ns2:SydneyLawford .
+
+    ns2:ManhattanvilleCollege a owl:NamedIndividual .
+
+    ns2:MariaShriver ns2:firstName "Maria" ;
+        ns2:spouse ns2:ArnoldSchwarzenegger .
+
+    ns2:MaryCKennedy a ns2:Person .
+
+    ns2:MaryKKennedy ns2:gender ns2:female ;
+        ns2:middleInitial "K" ;
+        ns2:middleName "Kerry" .
+
+    ns2:MaryRichardson ns2:firstName "Mary" ;
+        ns2:spouse ns2:RobertKennedyJr .
+
+    ns2:MollyStark ns2:middleInitial "E" ;
+        ns2:middleName "Elizabeth" .
+
+    ns2:RobertPenderJr ns2:name "Robert Pender Jr" .
+
+    ns2:RobertShriverIII ns2:parent ns2:EuniceKennedy ;
+        ns2:profession ns2:goverment .
+
+    ns2:RobinLawford ns2:firstName "Robin" ;
+        ns2:gender ns2:female .
+
+    ns2:VictoriaGifford ns2:middleInitial "D" ;
+        ns2:name "Victoria Gifford" ;
+        ns2:spouse ns2:MichaelKennedy .
+
+    ns2:VirginiaBennett ns2:birthYear "1936" ;
+        ns2:child ns2:EdwardKennedyJr ;
+        ns2:profession ns2:home-maker,
+            ns2:model .
+
+    ns2:WilliamCavendish ns2:firstName "William" ;
+        ns2:lastName "Cavendish" .
+
+    ns2:WilliamSmith a ns2:Person ;
+        ns2:birthYear "1960" ;
+        ns2:parent ns2:StephenSmith .
+
+    ns2:AmandaSmith ns2:middleName "Mary" .
+
+    ns2:ArnoldSchwarzenegger ns2:spouse ns2:MariaShriver .
+
+    ns2:CarolineKennedy ns2:almaMater ns2:Columbia ;
+        ns2:lastName "Kennedy" .
+
+    ns2:EdwardKennedy ns2:almaMater ns2:Harvard .
+
+    ns2:EdwinSchlossberg a ns2:Person .
+
+    ns2:JacquelineBouvier ns2:almaMater ns2:GeorgeWashingtonU ;
+        ns2:child ns2:PatrickBKennedy ;
+        ns2:deathYear "1994" ;
+        ns2:profession ns2:editor .
+
+    ns2:JeanKennedy ns2:child ns2:StephenSmithJr ;
+        ns2:parent ns2:JosephKennedy .
+
+    ns2:MarkShriver ns2:birthYear "1964" .
+
+    ns2:PatriciaKennedy ns2:almaMater ns2:RosemontCollege ;
+        ns2:spouse ns2:PeterLawford .
+
+    ns2:PaulHill ns2:firstName "Paul" .
+
+    ns2:PeterLawford ns2:lastName "Lawford" .
+
+    ns2:RobertKennedyJr ns2:birthYear "1954" .
+
+    ns2:RoryKennedy a owl:NamedIndividual ;
+        ns2:firstName "Rory" .
+
+    ns2:SheilaRauch ns2:spouse ns2:JosephKennedyII .
+
+    ns2:StephenSmithJr ns2:parent ns2:StephenSmith ;
+        ns2:suffix "Jr" .
+
+    ns2:TimothyShriver ns2:name "Timothy Shriver" .
+
+    ns2:EdwardKennedyJr a ns2:Person ;
+        ns2:firstName "Edward" ;
+        ns2:parent ns2:EdwardKennedy .
+
+    ns2:EthelSkakel a owl:NamedIndividual .
+
+    ns2:EuniceKennedy ns2:deathYear "2009" .
+
+    ns2:Harvard a owl:NamedIndividual .
+
+    ns2:JohnKennedyJr ns2:gender ns2:male ;
+        ns2:spouse ns2:CarolynBessette .
+
+    ns2:JosephKennedyII ns2:gender ns2:male ;
+        ns2:parent ns2:EthelSkakel ;
+        ns2:suffix "II" .
+
+    ns2:MichaelKennedy ns2:firstName "Michael" .
+
+    ns2:RobertKennedy ns2:child ns2:MaryKKennedy,
+            ns2:MatthewKennedy ;
+        ns2:firstName "Robert" ;
+        ns2:middleName "Francis" ;
+        ns2:spouse ns2:EthelSkakel .
+
+    ns2:RoseFitzgerald a ns2:Matriarch ;
+        ns2:firstName "Rose" .
+
+    ns2:JohnKennedy ns2:almaMater ns2:Harvard ;
+        ns2:birthYear "1917" ;
+        ns2:child ns2:CarolineKennedy,
+            ns2:JohnKennedyJr .
+
+    ns2:JosephKennedy a ns2:Patriarch ;
+        ns2:child ns2:JohnKennedy,
+            ns2:KathleenAKennedy ;
+        ns2:name "Joseph Kennedy" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/Joseph_Kennedy.jpg> .
+
+    ns2:female rdfs:label "female" .
+
+    ns2:male a owl:NamedIndividual .
+}
+
+ns1:graph_3 {
+    ns2:CatholicUniversity rdfs:label "Catholic University" .
+
+    ns2:DavidTownsend ns2:lastName "Townsend" .
+
+    ns2:JosephKennedyJr ns2:parent ns2:RoseFitzgerald .
+
+    ns2:MichaelAllen ns2:gender ns2:male .
+
+    ns2:lastName rdfs:domain ns2:Person .
+
+    ns2:name rdfs:label "name" .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/180px-JFKJr2.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/204px-John_F._Kennedy,_White_House_color_photo_portrait.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/220px-Peter_Lawford_in_Royal_Wedding_(2).jpg> a owl:NamedIndividual .
+
+    ns2:AnneKelly ns2:birthYear "1957" ;
+        ns2:middleInitial "E" .
+
+    ns2:Gender rdfs:subClassOf owl:Thing .
+
+    ns2:JeannieRipp a owl:NamedIndividual .
+
+    ns2:Matriarch rdfs:subClassOf ns2:Person .
+
+    ns2:Princeton a owl:NamedIndividual .
+
+    ns2:SheilaBerner ns2:name "Sheila Berner" .
+
+    ns2:UniversityOfNewMexico a ns2:College,
+            owl:NamedIndividual .
+
+    ns2:VictoriaLawford ns2:gender ns2:female ;
+        ns2:parent ns2:PatriciaKennedy ;
+        ns2:spouse ns2:RobertPenderJr .
+
+    ns2:VictoriaReggie ns2:birthYear "1954" ;
+        ns2:middleInitial "A" .
+
+    ns2:doctor rdfs:label "doctor" .
+
+    ns2:firstName rdfs:label "first name" .
+
+    ns2:gender rdfs:label "has gender" .
+
+    ns2:governor a owl:NamedIndividual .
+
+    ns2:ivyLeague rdfs:range xsd:boolean .
+
+    ns2:peace-corp a ns2:Profession .
+
+    ns2:photo rdfs:label "photo" .
+
+    ns2:professor rdfs:label "professor" .
+
+    ns2:DouglasKennedy ns2:almaMater ns2:Brown .
+
+    ns2:JeffreyRuhe ns2:lastName "Ruhe" ;
+        ns2:name "Jeffrey Ruhe" ;
+        ns2:spouse ns2:MaryCKennedy .
+
+    ns2:KaraKennedy a ns2:Person ;
+        ns2:firstName "Kara" ;
+        ns2:gender ns2:female .
+
+    ns2:KathleenHKennedy ns2:middleInitial "H" ;
+        ns2:name "Kathleen H. Kennedy" .
+
+    ns2:MarkBailey ns2:spouse ns2:RoryKennedy .
+
+    ns2:RobertShriver ns2:child ns2:AnthonyShriver ;
+        ns2:gender ns2:male .
+
+    ns2:RoseKennedy ns2:deathYear "2005" ;
+        ns2:gender ns2:female .
+
+    ns2:district-attorney a ns2:Profession .
+
+    ns2:middleName a owl:DatatypeProperty .
+
+    ns2:producer rdfs:label "producer" .
+
+    ns2:teacher rdfs:label "teacher" .
+
+    ns2:AlinaMojica a ns2:Person .
+
+    ns2:CarolynBessette ns2:spouse ns2:JohnKennedyJr .
+
+    ns2:ChristopherKennedy ns2:parent ns2:EthelSkakel .
+
+    ns2:JamesMcKelvy ns2:firstName "James" ;
+        ns2:middleInitial "P" .
+
+    ns2:KymSmith ns2:parent ns2:StephenSmith .
+
+    ns2:MariaShriver ns2:parent ns2:EuniceKennedy .
+
+    ns2:MaryKKennedy ns2:name "Mary Kennedy" ;
+        ns2:parent ns2:EthelSkakel ;
+        ns2:spouse ns2:AndrewCuomo .
+
+    ns2:MaryRichardson a owl:NamedIndividual .
+
+    ns2:RobertShriverIII ns2:birthYear "1954" .
+
+    ns2:RobinLawford ns2:name "Robin Lawford" .
+
+    ns2:SydneyLawford a ns2:Person .
+
+    ns2:VictoriaGifford a ns2:Person .
+
+    ns2:VirginiaBennett a owl:NamedIndividual ;
+        ns2:child ns2:KaraKennedy ;
+        ns2:name "Virginia Bennett" .
+
+    ns2:WilliamCavendish ns2:gender ns2:male .
+
+    ns2:Yale ns2:ivyLeague "True" .
+
+    ns2:non-profit a owl:NamedIndividual .
+
+    ns2:ArnoldSchwarzenegger a ns2:Person ;
+        ns2:gender ns2:male ;
+        ns2:name "Arnold Schwarzenegger" .
+
+    ns2:CarolineKennedy ns2:gender ns2:female ;
+        ns2:middleName "Bouvier" ;
+        ns2:parent ns2:JacquelineBouvier .
+
+    ns2:EdwardKennedy ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/Ted_Kennedy.jpg> ;
+        ns2:profession ns2:army .
+
+    ns2:KathleenAKennedy a owl:NamedIndividual .
+
+    ns2:MarkShriver ns2:lastName "Shriver" .
+
+    ns2:MaryCKennedy a owl:NamedIndividual .
+
+    ns2:PeterLawford ns2:child ns2:ChristopherLawford .
+
+    ns2:RobertKennedyJr ns2:profession ns2:attorney .
+
+    ns2:RobertPenderJr ns2:birthYear "1953" .
+
+    ns2:StephenSmithJr ns2:gender ns2:male .
+
+    ns2:TimothyShriver ns2:lastName "Shriver" ;
+        ns2:middleInitial "P" ;
+        ns2:middleName "Perry" ;
+        ns2:profession ns2:non-profit .
+
+    ns2:EdwardKennedyJr ns2:gender ns2:male .
+
+    ns2:Harvard ns2:ivyLeague "True" .
+
+    ns2:JacquelineBouvier ns2:middleName "Lee" ;
+        ns2:spouse ns2:JohnKennedy .
+
+    ns2:JeanKennedy ns2:firstName "Jean" ;
+        ns2:profession ns2:ambassador .
+
+    ns2:PatriciaKennedy a owl:NamedIndividual ;
+        ns2:birthYear "1924" ;
+        ns2:child ns2:ChristopherLawford .
+
+    ns2:RoryKennedy ns2:spouse ns2:MarkBailey .
+
+    ns2:EuniceKennedy ns2:child ns2:AnthonyShriver ;
+        ns2:lastName "Kennedy" .
+
+    ns2:JohnKennedyJr ns2:almaMater ns2:NYU ;
+        ns2:deathYear "1999" ;
+        ns2:name "John Kennedy Jr" .
+
+    ns2:RobertKennedy a ns2:Person ;
+        ns2:child ns2:MichaelKennedy ;
+        ns2:profession ns2:senator .
+
+    ns2:RoseFitzgerald ns2:birthYear "1890" ;
+        ns2:child ns2:JeanKennedy,
+            ns2:KathleenAKennedy,
+            ns2:RobertKennedy ;
+        ns2:middleInitial "E" .
+
+    ns2:EthelSkakel ns2:name "Ethel Skakel" .
+
+    ns2:JohnKennedy ns2:almaMater ns2:Princeton .
+
+    ns2:JosephKennedy ns2:deathYear "1969" ;
+        ns2:lastName "Kennedy" .
+
+    ns2:Profession rdfs:subClassOf owl:Thing .
+
+    ns2:Person rdfs:label "Person" .
+}
+
+ns1:graph_10 {
+    ns2:birthYear rdfs:range xsd:int .
+
+    ns2:shipping rdfs:label "shipping" .
+
+    <http://topbraid.org/examples/kennedys> owl:versionInfo "1.0.1" .
+
+    ns2:CatholicUniversity a ns2:College .
+
+    ns2:DavidTownsend a ns2:Person ;
+        ns2:middleName "Lee" .
+
+    ns2:JosephKennedyJr a owl:NamedIndividual ;
+        ns2:almaMater ns2:Harvard ;
+        ns2:deathYear "1944" ;
+        ns2:lastName "Kennedy" ;
+        ns2:profession ns2:navy .
+
+    ns2:LindaPotter ns2:firstName "Linda" ;
+        ns2:lastName "Potter" .
+
+    ns2:VictoriaStrauss ns2:middleInitial "A" .
+
+    ns2:deathYear rdfs:domain ns2:Person .
+
+    ns2:AlfredTucker ns2:birthYear "1967" ;
+        ns2:gender ns2:male ;
+        ns2:lastName "Tucker" .
+
+    ns2:AndrewCuomo ns2:gender ns2:male .
+
+    ns2:AnneKelly a ns2:Person ;
+        ns2:firstName "Anne" ;
+        ns2:gender ns2:female ;
+        ns2:name "Anne Kelly" .
+
+    ns2:AristotleOnassis ns2:lastName "Onassis" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/AristotleOnassis.jpg> .
+
+    ns2:CartHood a ns2:Person .
+
+    ns2:JeannieRipp a ns2:Person ;
+        ns2:firstName "Jeannie" ;
+        ns2:name "Jeannie Ripp" .
+
+    ns2:MichaelAllen ns2:birthYear "1958" ;
+        ns2:firstName "Michael" ;
+        ns2:name "Michael Allen" .
+
+    ns2:Princeton rdfs:label "Princeton" .
+
+    ns2:SheilaBerner ns2:spouse ns2:ChristopherKennedy .
+
+    ns2:VictoriaReggie ns2:spouse ns2:EdwardKennedy .
+
+    ns2:doctor a owl:NamedIndividual .
+
+    ns2:gender rdfs:domain ns2:Person .
+
+    ns2:publisher a ns2:Profession,
+            owl:NamedIndividual .
+
+    ns2:suffix rdfs:label "suffix" .
+
+    ns2:Columbia a ns2:College,
+            owl:NamedIndividual ;
+        rdfs:label "Columbia University" .
+
+    ns2:DouglasKennedy ns2:birthYear "1967" ;
+        ns2:lastName "Kennedy" ;
+        ns2:parent ns2:EthelSkakel .
+
+    ns2:EmilyBlack ns2:spouse ns2:RobertKennedyJr .
+
+    ns2:JeanOlsson ns2:birthYear "1955" .
+
+    ns2:ManhattanvilleCollege a ns2:College .
+
+    ns2:MollyStark ns2:gender ns2:female .
+
+    ns2:PatrickJKennedy ns2:lastName "Kennedy" .
+
+    ns2:RobertShriver ns2:middleName "Sargent" ;
+        ns2:name "Robert Shriver" ;
+        ns2:profession ns2:peace-corp .
+
+    ns2:RoseKennedy ns2:lastName "Kennedy" .
+
+    ns2:VictoriaLawford a owl:NamedIndividual ;
+        ns2:lastName "Lawford" .
+
+    ns2:actor a ns2:Profession .
+
+    ns2:navy a owl:NamedIndividual .
+
+    ns2:producer a owl:NamedIndividual .
+
+    ns2:AnthonyShriver ns2:firstName "Anthony" .
+
+    ns2:CarolynBessette ns2:almaMater ns2:BostonUniversity .
+
+    ns2:DavidKennedy ns2:lastName "Kennedy" ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:JamesMcKelvy ns2:birthYear "1955" ;
+        ns2:lastName "McKelvy" .
+
+    ns2:JeffreyRuhe a owl:NamedIndividual .
+
+    ns2:KaraKennedy a owl:NamedIndividual ;
+        ns2:middleName "Anne" ;
+        ns2:spouse ns2:MichaelAllen .
+
+    ns2:MariaShriver ns2:gender ns2:female ;
+        ns2:lastName "Shriver" .
+
+    ns2:MaryKKennedy a owl:NamedIndividual .
+
+    ns2:RobertShriverIII ns2:lastName "Shriver" ;
+        ns2:suffix "III" .
+
+    ns2:RobinLawford a owl:NamedIndividual .
+
+    ns2:SydneyLawford a owl:NamedIndividual ;
+        ns2:birthYear "1956" ;
+        ns2:middleInitial "M" .
+
+    ns2:VirginiaBennett ns2:child ns2:PatrickJKennedy ;
+        ns2:lastName "Bennett" .
+
+    ns2:home-maker a ns2:Profession ;
+        rdfs:label "home-maker" .
+
+    ns2:AmandaSmith ns2:firstName "Amanda" ;
+        ns2:parent ns2:JeanKennedy .
+
+    ns2:ArnoldSchwarzenegger ns2:profession ns2:governor .
+
+    ns2:ChristopherLawford ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/ChristopherLawford.jpg> .
+
+    ns2:JosephKennedyII ns2:lastName "Kennedy" .
+
+    ns2:KymSmith ns2:birthYear "1972" ;
+        ns2:middleName "Maria" .
+
+    ns2:PeterLawford a ns2:Person ;
+        ns2:child ns2:VictoriaLawford ;
+        ns2:firstName "Peter" .
+
+    ns2:RobertPenderJr ns2:suffix "Jr" .
+
+    ns2:StephenSmith ns2:child ns2:KymSmith .
+
+    ns2:EdwardKennedy ns2:child ns2:EdwardKennedyJr,
+            ns2:KaraKennedy ;
+        ns2:lastName "Kennedy" .
+
+    ns2:MarkShriver ns2:firstName "Mark" .
+
+    ns2:MaryCKennedy ns2:name "Mary Kennedy" ;
+        ns2:spouse ns2:JeffreyRuhe .
+
+    ns2:RobertKennedyJr ns2:suffix "Jr" .
+
+    ns2:RoryKennedy a ns2:Person ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:EuniceKennedy ns2:child ns2:MarkShriver .
+
+    ns2:JacquelineBouvier ns2:child ns2:CarolineKennedy .
+
+    ns2:JeanKennedy ns2:child ns2:AmandaSmith .
+
+    ns2:JohnKennedyJr ns2:parent ns2:JacquelineBouvier ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/180px-JFKJr2.jpg> ;
+        ns2:profession ns2:publisher .
+
+    ns2:PatriciaKennedy ns2:gender ns2:female .
+
+    ns2:JohnKennedy ns2:deathYear "1963" ;
+        ns2:name "John Kennedy" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/204px-John_F._Kennedy,_White_House_color_photo_portrait.jpg> ;
+        ns2:profession ns2:senator .
+
+    ns2:JosephKennedy ns2:child ns2:PatriciaKennedy ;
+        ns2:firstName "Joseph" ;
+        ns2:gender ns2:male ;
+        ns2:spouse ns2:RoseFitzgerald .
+
+    ns2:RoseFitzgerald a owl:NamedIndividual .
+
+    ns2:EthelSkakel a ns2:Person ;
+        ns2:birthYear "1928" ;
+        ns2:child ns2:DavidKennedy .
+
+    ns2:RobertKennedy ns2:almaMater ns2:UniversityOfVirginia ;
+        ns2:child ns2:DavidKennedy,
+            ns2:MaryCKennedy ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/196px-Robertkennedy.jpg> .
+}
+
+ns1:graph_5 {
+    ns2:SacredHeartConvent ns2:ivyLeague "False" .
+
+    ns2:profession rdfs:label "has profession" .
+
+    ns2:GeorgetownUniversity a owl:NamedIndividual .
+
+    ns2:PR a ns2:Profession .
+
+    ns2:UniversityOfConnecticut rdfs:label "University of Connecticut" .
+
+    ns2:almaMater rdfs:range ns2:College .
+
+    ns2:attorney-general a owl:NamedIndividual .
+
+    ns2:body-builder a ns2:Profession .
+
+    ns2:goverment a ns2:Profession .
+
+    ns2:name a owl:DatatypeProperty ;
+        rdfs:subPropertyOf rdfs:label .
+
+    ns2:spouse a owl:ObjectProperty .
+
+    ns2:writer a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/ChristopherLawford.jpg> a owl:NamedIndividual .
+
+    ns2:CatholicUniversity a owl:NamedIndividual .
+
+    ns2:DavidTownsend ns2:middleInitial "L" .
+
+    ns2:Matriarch a owl:Class .
+
+    ns2:VictoriaStrauss a owl:NamedIndividual ;
+        ns2:firstName "Victoria" ;
+        ns2:middleName "Anne" .
+
+    ns2:firstName rdfs:domain ns2:Person .
+
+    ns2:model rdfs:label "model" .
+
+    ns2:president a ns2:Profession .
+
+    ns2:AndrewCuomo ns2:lastName "Cuomo" ;
+        ns2:profession ns2:cabinet-secretary .
+
+    ns2:AnneKelly ns2:middleName "Elizabeth" .
+
+    ns2:AristotleOnassis ns2:firstName "Aristotle" .
+
+    ns2:BostonUniversity a ns2:College .
+
+    ns2:Brown a ns2:College,
+            owl:NamedIndividual .
+
+    ns2:CartHood ns2:lastName "Hood" ;
+        ns2:middleName "Harmon" .
+
+    ns2:KatherineGershman a ns2:Person ;
+        ns2:firstName "Katherine" ;
+        ns2:lastName "Gershman" .
+
+    ns2:KathleenHKennedy ns2:gender ns2:female ;
+        ns2:middleName "Hartington" ;
+        ns2:parent ns2:EthelSkakel ;
+        ns2:profession ns2:Lt-governor .
+
+    ns2:LindaPotter ns2:birthYear "1956" ;
+        ns2:middleInitial "S" ;
+        ns2:name "Linda Potter" .
+
+    ns2:NYU rdfs:label "New York University" .
+
+    ns2:PatrickBKennedy ns2:birthYear "1963" ;
+        ns2:gender ns2:male ;
+        ns2:lastName "Kennedy" .
+
+    ns2:UniversityOfWisconsin rdfs:label "University of Wisconsin" .
+
+    ns2:cabinet-secretary a ns2:Profession .
+
+    ns2:gender rdfs:range ns2:Gender .
+
+    ns2:middleName rdfs:range xsd:string .
+
+    ns2:peace-corp rdfs:label "peace-corp" .
+
+    ns2:teacher a ns2:Profession .
+
+    ns2:AlinaMojica a owl:NamedIndividual ;
+        ns2:gender ns2:female .
+
+    ns2:EdwinSchlossberg ns2:lastName "Schlossberg" ;
+        ns2:middleInitial "A" .
+
+    ns2:JeanOlsson ns2:lastName "Olsson" .
+
+    ns2:PatrickJKennedy ns2:firstName "Patrick" .
+
+    ns2:PaulHill a owl:NamedIndividual .
+
+    ns2:RoseKennedy ns2:firstName "Rose" ;
+        ns2:middleName "Marie" .
+
+    ns2:SheilaBerner a ns2:Person ;
+        ns2:gender ns2:female .
+
+    ns2:VictoriaGifford ns2:firstName "Victoria" ;
+        ns2:lastName "Gifford" .
+
+    ns2:WilliamCavendish ns2:middleInitial "JR" .
+
+    ns2:non-profit rdfs:label "non-profit" .
+
+    ns2:AnthonyShriver ns2:lastName "Shriver" ;
+        ns2:middleInitial "K" ;
+        ns2:parent ns2:RobertShriver .
+
+    ns2:CarolynBessette ns2:birthYear "1966" .
+
+    ns2:ChristopherKennedy ns2:middleName "George" ;
+        ns2:spouse ns2:SheilaBerner .
+
+    ns2:DavidKennedy ns2:parent ns2:EthelSkakel .
+
+    ns2:DouglasKennedy a owl:NamedIndividual .
+
+    ns2:KaraKennedy ns2:middleInitial "A" ;
+        ns2:parent ns2:EdwardKennedy .
+
+    ns2:KathleenAKennedy a ns2:Person ;
+        ns2:lastName "Kennedy" ;
+        ns2:name "Kathleen A. Kennedy" .
+
+    ns2:MariaShriver ns2:parent ns2:RobertShriver .
+
+    ns2:RobertShriverIII ns2:profession ns2:attorney .
+
+    ns2:RobinLawford ns2:middleInitial "E" .
+
+    ns2:StephenSmithJr ns2:birthYear "1957" ;
+        ns2:lastName "Smith" ;
+        ns2:parent ns2:JeanKennedy .
+
+    ns2:TimothyShriver ns2:spouse ns2:LindaPotter .
+
+    ns2:VirginiaBennett a ns2:Person .
+
+    ns2:home-maker a owl:NamedIndividual .
+
+    ns2:ArnoldSchwarzenegger ns2:middleInitial "A" ;
+        ns2:profession ns2:actor .
+
+    ns2:CarolineKennedy a owl:NamedIndividual ;
+        ns2:firstName "Caroline" .
+
+    ns2:ChristopherLawford a owl:NamedIndividual .
+
+    ns2:JosephKennedyII a owl:NamedIndividual .
+
+    ns2:KymSmith a ns2:Person ;
+        ns2:spouse ns2:AlfredTucker .
+
+    ns2:MichaelKennedy a ns2:Person,
+            owl:NamedIndividual ;
+        ns2:middleName "LeMoyne" ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:PeterLawford a owl:NamedIndividual ;
+        ns2:birthYear "1923" ;
+        ns2:name "Peter Lawford" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/220px-Peter_Lawford_in_Royal_Wedding_(2).jpg> ;
+        ns2:profession ns2:actor .
+
+    ns2:StephenSmith ns2:birthYear "1927" ;
+        ns2:child ns2:WilliamSmith ;
+        ns2:firstName "Stephen" ;
+        ns2:middleName "Edward" .
+
+    ns2:RobertKennedyJr ns2:parent ns2:EthelSkakel .
+
+    ns2:RobertShriver ns2:profession ns2:navy ;
+        ns2:spouse ns2:EuniceKennedy .
+
+    ns2:EdwardKennedy ns2:middleInitial "M" ;
+        ns2:parent ns2:JosephKennedy .
+
+    ns2:JacquelineBouvier ns2:profession ns2:photographer .
+
+    ns2:JohnKennedyJr ns2:almaMater ns2:Brown ;
+        ns2:suffix "Jr" .
+
+    ns2:MaryCKennedy ns2:parent ns2:EthelSkakel .
+
+    ns2:PatriciaKennedy ns2:child ns2:SydneyLawford ;
+        ns2:lastName "Kennedy" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/Patriciakennedylawford.jpg> .
+
+    ns2:EuniceKennedy ns2:profession ns2:volunteer ;
+        ns2:spouse ns2:RobertShriver .
+
+    ns2:JeanKennedy a ns2:Person ;
+        ns2:almaMater ns2:ManhattanvilleCollege ;
+        ns2:middleInitial "A" .
+
+    ns2:JohnKennedy ns2:lastName "Kennedy" ;
+        ns2:parent ns2:RoseFitzgerald ;
+        ns2:profession ns2:congressman .
+
+    ns2:JosephKennedy ns2:child ns2:RobertKennedy ;
+        ns2:profession ns2:banker .
+
+    ns2:RoseFitzgerald ns2:name "Rose Fitzgerald" .
+
+    ns2:RobertKennedy ns2:child ns2:DouglasKennedy .
+
+    ns2:EthelSkakel ns2:child ns2:MaryCKennedy ;
+        ns2:gender ns2:female .
+
+    ns2:Profession a owl:Class .
+}
+
+ns1:graph_8 {
+    ns2:SacredHeartConvent rdfs:label "Sacred Heart Convent" .
+
+    ns2:birthYear a owl:DatatypeProperty .
+
+    ns2:middleInitial rdfs:label "MI" ;
+        rdfs:range xsd:string .
+
+    ns2:profession a owl:ObjectProperty .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/Kathleen_Kennedy_Townsend.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/Ted_Kennedy.jpg> a owl:NamedIndividual .
+
+    ns2:PR a owl:NamedIndividual .
+
+    ns2:body-builder a owl:NamedIndividual .
+
+    ns2:campaign-organizer rdfs:label "campaign-organizer" .
+
+    ns2:editor a owl:NamedIndividual .
+
+    ns2:goverment rdfs:label "goverment" .
+
+    ns2:JeannieRipp ns2:birthYear "1965" ;
+        ns2:gender ns2:female ;
+        ns2:spouse ns2:MarkShriver .
+
+    ns2:JosephKennedyJr ns2:name "Joseph Kennedy Jr" .
+
+    ns2:WesleyanUniversity a owl:NamedIndividual .
+
+    ns2:model a owl:NamedIndividual .
+
+    ns2:senator a owl:NamedIndividual .
+
+    ns2:suffix rdfs:range xsd:string .
+
+    ns2:volunteer rdfs:label "volunteer" .
+
+    ns2:AlfredTucker ns2:spouse ns2:KymSmith .
+
+    ns2:AndrewCuomo ns2:middleInitial "M" .
+
+    ns2:AnneKelly a owl:NamedIndividual ;
+        ns2:spouse ns2:JosephKennedyII .
+
+    ns2:AristotleOnassis ns2:gender ns2:male ;
+        ns2:spouse ns2:JacquelineBouvier .
+
+    ns2:CartHood ns2:birthYear "1966" .
+
+    ns2:EmilyBlack a owl:NamedIndividual ;
+        ns2:middleInitial "R" .
+
+    ns2:KatherineGershman ns2:gender ns2:female .
+
+    ns2:LindaPotter ns2:spouse ns2:TimothyShriver .
+
+    ns2:MollyStark a ns2:Person ;
+        ns2:name "Molly Stark" ;
+        ns2:spouse ns2:DouglasKennedy .
+
+    ns2:SheilaRauch a ns2:Person ;
+        ns2:firstName "Sheila" .
+
+    ns2:UniversityOfWisconsin ns2:ivyLeague "False" .
+
+    ns2:VictoriaLawford a ns2:Person ;
+        ns2:birthYear "1958" .
+
+    ns2:VictoriaReggie a owl:NamedIndividual ;
+        ns2:gender ns2:female .
+
+    ns2:VictoriaStrauss ns2:birthYear "1964" .
+
+    ns2:WilliamSmith ns2:firstName "William" ;
+        ns2:parent ns2:JeanKennedy .
+
+    ns2:AlinaMojica ns2:birthYear "1965" .
+
+    ns2:JeanOlsson ns2:gender ns2:female ;
+        ns2:spouse ns2:ChristopherLawford .
+
+    ns2:JeffreyRuhe ns2:middleName "Robert" .
+
+    ns2:KathleenHKennedy ns2:birthYear "1951" .
+
+    ns2:MaryKKennedy ns2:birthYear "1959" ;
+        ns2:lastName "Kennedy" ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:MatthewKennedy ns2:parent ns2:EthelSkakel ;
+        ns2:spouse ns2:VictoriaStrauss .
+
+    ns2:PatrickBKennedy a ns2:Person ;
+        ns2:firstName "Patrick" .
+
+    ns2:PatrickJKennedy ns2:name "Patrick J. Kennedy" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/160px-Patrick_J._Kennedy,.JPG> .
+
+    ns2:PaulHill ns2:middleName "Michael" ;
+        ns2:name "Paul Hill" .
+
+    ns2:SheilaBerner a owl:NamedIndividual .
+
+    ns2:AnthonyShriver a owl:NamedIndividual ;
+        ns2:gender ns2:male ;
+        ns2:parent ns2:EuniceKennedy .
+
+    ns2:ChristopherKennedy ns2:firstName "Christopher" .
+
+    ns2:DavidKennedy ns2:birthYear "1955" ;
+        ns2:deathYear "1984" ;
+        ns2:name "David Kennedy" .
+
+    ns2:KaraKennedy ns2:birthYear "1960" ;
+        ns2:deathYear "2011" .
+
+    ns2:KathleenAKennedy ns2:middleInitial "A" ;
+        ns2:profession ns2:volunteer .
+
+    ns2:MariaShriver ns2:birthYear "1955" .
+
+    ns2:RobinLawford ns2:middleName "Elizabeth" ;
+        ns2:parent ns2:PatriciaKennedy .
+
+    ns2:StephenSmithJr a ns2:Person ;
+        ns2:name "Stephen Smith Jr" .
+
+    ns2:VirginiaBennett ns2:middleName "Joan" .
+
+    ns2:Yale a ns2:College .
+
+    ns2:AmandaSmith ns2:lastName "Smith" ;
+        ns2:middleInitial "M" ;
+        ns2:parent ns2:StephenSmith .
+
+    ns2:ArnoldSchwarzenegger a owl:NamedIndividual .
+
+    ns2:CarolineKennedy a ns2:Person ;
+        ns2:name "Caroline Kennedy" .
+
+    ns2:EdwardKennedyJr ns2:almaMater ns2:UniversityOfConnecticut,
+            ns2:WesleyanUniversity ;
+        ns2:profession ns2:business .
+
+    ns2:MichaelKennedy ns2:gender ns2:male ;
+        ns2:lastName "Kennedy" .
+
+    ns2:PeterLawford ns2:spouse ns2:PatriciaKennedy .
+
+    ns2:RoryKennedy ns2:parent ns2:EthelSkakel ;
+        ns2:profession ns2:producer .
+
+    ns2:TimothyShriver ns2:almaMater ns2:Yale ;
+        ns2:birthYear "1959" .
+
+    ns2:ChristopherLawford ns2:birthYear "1955" ;
+        ns2:middleInitial "K" .
+
+    ns2:DouglasKennedy a ns2:Person ;
+        ns2:middleName "Harriman" .
+
+    ns2:JosephKennedyII ns2:name "Joseph Kennedy II" ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:RobertKennedyJr ns2:firstName "Robert" ;
+        ns2:profession ns2:broadcaster .
+
+    ns2:RobertShriver a ns2:Person ;
+        ns2:child ns2:RobertShriverIII ;
+        ns2:middleInitial "S" .
+
+    ns2:RobertShriverIII ns2:almaMater ns2:Yale .
+
+    ns2:StephenSmith a ns2:Person ;
+        ns2:child ns2:AmandaSmith ;
+        ns2:name "Stephen Smith" .
+
+    ns2:EdwardKennedy ns2:spouse ns2:VictoriaReggie .
+
+    ns2:JohnKennedyJr a owl:NamedIndividual .
+
+    ns2:JohnKennedy ns2:child ns2:PatrickBKennedy ;
+        ns2:firstName "John" ;
+        ns2:gender ns2:male ;
+        ns2:profession ns2:president ;
+        ns2:spouse ns2:JacquelineBouvier .
+
+    ns2:JacquelineBouvier ns2:name "Jacqueline Bouvier" .
+
+    ns2:JeanKennedy ns2:middleName "Ann" .
+
+    ns2:JosephKennedy ns2:child ns2:EuniceKennedy,
+            ns2:JosephKennedyJr .
+
+    ns2:PatriciaKennedy ns2:profession ns2:producer .
+
+    ns2:EuniceKennedy ns2:birthYear "1921" ;
+        ns2:child ns2:RobertShriverIII ;
+        ns2:firstName "Eunice" .
+
+    ns2:College a owl:Class .
+
+    ns2:RobertKennedy ns2:gender ns2:male ;
+        ns2:lastName "Kennedy" ;
+        ns2:middleInitial "F" ;
+        ns2:profession ns2:navy .
+
+    ns2:EthelSkakel ns2:child ns2:DouglasKennedy,
+            ns2:KathleenHKennedy .
+
+    ns2:female a owl:NamedIndividual .
+}
+
+ns1:graph_2 {
+    ns2:business rdfs:label "business" .
+
+    ns2:lastName a owl:DatatypeProperty .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/250px-RobertFKennedyJr.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/AristotleOnassis.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/Joseph_Kennedy.jpg> a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/Rose_kennedy.JPG> a owl:NamedIndividual .
+
+    ns2:GeorgetownUniversity rdfs:label "Georgetown University" .
+
+    ns2:Patriarch rdfs:label "Patriarch" .
+
+    ns2:almaMater a owl:ObjectProperty .
+
+    ns2:birthYear rdfs:domain ns2:Person .
+
+    ns2:deathYear a owl:DatatypeProperty .
+
+    ns2:middleInitial rdfs:domain ns2:Person .
+
+    ns2:photographer a ns2:Profession .
+
+    ns2:professor a owl:NamedIndividual .
+
+    ns2:writer rdfs:label "writer" .
+
+    ns2:DavidTownsend ns2:gender ns2:male ;
+        ns2:name "David Townsend" .
+
+    ns2:Gender rdfs:label "Gender" .
+
+    ns2:MarkBailey a ns2:Person ;
+        ns2:firstName "Mark" ;
+        ns2:name "Mark Bailey" .
+
+    ns2:Matriarch rdfs:label "Matriarch" .
+
+    ns2:MichaelAllen a ns2:Person .
+
+    ns2:Princeton ns2:ivyLeague "True" .
+
+    ns2:UniversityOfVirginia rdfs:label "University of Virginia" .
+
+    ns2:broadcaster a ns2:Profession .
+
+    ns2:goverment a owl:NamedIndividual .
+
+    ns2:JosephKennedyJr ns2:birthYear "1915" ;
+        ns2:gender ns2:male ;
+        ns2:suffix "Jr" .
+
+    ns2:MaryRichardson a ns2:Person .
+
+    ns2:NYU ns2:ivyLeague "False" .
+
+    ns2:AlfredTucker a owl:NamedIndividual .
+
+    ns2:AndrewCuomo ns2:birthYear "1957" .
+
+    ns2:AristotleOnassis a owl:NamedIndividual ;
+        ns2:name "Aristotle Onassis" .
+
+    ns2:EdwinSchlossberg ns2:firstName "Edwin" ;
+        ns2:middleName "Arthur" .
+
+    ns2:KatherineGershman ns2:birthYear "1959" .
+
+    ns2:ManhattanvilleCollege ns2:ivyLeague "False" .
+
+    ns2:SheilaRauch ns2:birthYear "1949" ;
+        ns2:gender ns2:female .
+
+    ns2:VictoriaGifford ns2:birthYear "1957" .
+
+    ns2:VictoriaReggie ns2:firstName "Victoria" .
+
+    ns2:VictoriaStrauss a ns2:Person ;
+        ns2:name "Victoria Strauss" .
+
+    ns2:senator rdfs:label "senator" .
+
+    ns2:EmilyBlack a ns2:Person ;
+        ns2:name "Emily Black" .
+
+    ns2:JeffreyRuhe ns2:middleInitial "R" .
+
+    ns2:KathleenHKennedy ns2:almaMater ns2:Harvard .
+
+    ns2:MaryKKennedy ns2:firstName "Mary" .
+
+    ns2:PatrickBKennedy ns2:deathYear "1963" .
+
+    ns2:RobertPenderJr ns2:firstName "Robert" ;
+        ns2:spouse ns2:VictoriaLawford .
+
+    ns2:SydneyLawford ns2:firstName "Sydney" .
+
+    ns2:WilliamCavendish a ns2:Person ;
+        ns2:spouse ns2:KathleenAKennedy .
+
+    ns2:WilliamSmith ns2:middleName "Kennedy" ;
+        ns2:name "William Smith" .
+
+    ns2:navy a ns2:Profession .
+
+    ns2:producer a ns2:Profession .
+
+    ns2:DavidKennedy a owl:NamedIndividual ;
+        ns2:firstName "David" .
+
+    ns2:KaraKennedy ns2:parent ns2:VirginiaBennett .
+
+    ns2:PatrickJKennedy a ns2:Person .
+
+    ns2:RoseKennedy a owl:NamedIndividual ;
+        ns2:parent ns2:RoseFitzgerald .
+
+    ns2:CarolineKennedy ns2:middleInitial "B" .
+
+    ns2:KathleenAKennedy ns2:birthYear "1920" ;
+        ns2:deathYear "1948" ;
+        ns2:spouse ns2:WilliamCavendish .
+
+    ns2:KymSmith a owl:NamedIndividual .
+
+    ns2:MarkShriver ns2:gender ns2:male ;
+        ns2:parent ns2:EuniceKennedy,
+            ns2:RobertShriver .
+
+    ns2:MichaelKennedy ns2:name "Michael Kennedy" .
+
+    ns2:RoryKennedy ns2:almaMater ns2:Brown .
+
+    ns2:VirginiaBennett ns2:spouse ns2:EdwardKennedy .
+
+    ns2:DouglasKennedy ns2:firstName "Douglas" ;
+        ns2:parent ns2:RobertKennedy ;
+        ns2:spouse ns2:MollyStark .
+
+    ns2:MaryCKennedy ns2:gender ns2:female .
+
+    ns2:RobertShriverIII ns2:parent ns2:RobertShriver .
+
+    ns2:StephenSmith ns2:gender ns2:female ;
+        ns2:spouse ns2:JeanKennedy .
+
+    ns2:TimothyShriver a owl:NamedIndividual ;
+        ns2:almaMater ns2:CatholicUniversity .
+
+    ns2:JohnKennedyJr a ns2:Person .
+
+    ns2:RobertKennedyJr a owl:NamedIndividual ;
+        ns2:almaMater ns2:Harvard,
+            ns2:UniversityOfVirginia ;
+        ns2:name "Robert Kennedy Jr" ;
+        ns2:spouse ns2:EmilyBlack .
+
+    ns2:EdwardKennedy ns2:child ns2:PatrickJKennedy ;
+        ns2:deathYear "2009" ;
+        ns2:gender ns2:male ;
+        ns2:profession ns2:senator .
+
+    ns2:RobertShriver a owl:NamedIndividual ;
+        ns2:profession ns2:ambassador .
+
+    ns2:JacquelineBouvier ns2:firstName "Jacqueline" .
+
+    ns2:JohnKennedy a ns2:Person .
+
+    ns2:JeanKennedy a owl:NamedIndividual ;
+        ns2:child ns2:WilliamSmith .
+
+    ns2:JosephKennedy ns2:child ns2:RoseKennedy ;
+        ns2:middleInitial "P" .
+
+    ns2:PatriciaKennedy ns2:child ns2:RobinLawford ;
+        ns2:parent ns2:JosephKennedy,
+            ns2:RoseFitzgerald .
+
+    ns2:EuniceKennedy ns2:child ns2:MariaShriver,
+            ns2:TimothyShriver ;
+        ns2:middleInitial "M" ;
+        ns2:parent ns2:RoseFitzgerald .
+
+    ns2:RoseFitzgerald ns2:child ns2:JohnKennedy,
+            ns2:PatriciaKennedy,
+            ns2:RoseKennedy ;
+        ns2:deathYear "1995" ;
+        ns2:gender ns2:female ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/Rose_kennedy.JPG> .
+
+    ns2:RobertKennedy ns2:birthYear "1925" ;
+        ns2:child ns2:RobertKennedyJr .
+
+    ns2:EthelSkakel ns2:lastName "Skakel" ;
+        ns2:profession ns2:non-profit .
+
+    ns2:male rdfs:label "male" .
+}
+
+ns1:graph_9 {
+    ns2:Lt-governor a ns2:Profession .
+
+    ns2:child rdfs:domain ns2:Person ;
+        rdfs:range ns2:Person .
+
+    ns2:shipping a owl:NamedIndividual .
+
+    <http://www.topbraidcomposer.org/demos/kennedys/images/196px-Robertkennedy.jpg> a owl:NamedIndividual .
+
+    ns2:GeorgeWashingtonU rdfs:label "George Washington University" .
+
+    ns2:banker rdfs:label "banker" .
+
+    ns2:business a owl:NamedIndividual .
+
+    ns2:ivyLeague a owl:DatatypeProperty ;
+        rdfs:domain ns2:College .
+
+    ns2:lastName rdfs:range xsd:string .
+
+    ns2:name a owl:AnnotationProperty .
+
+    ns2:Patriarch rdfs:subClassOf ns2:Person .
+
+    ns2:SacredHeartConvent a ns2:College,
+            owl:NamedIndividual .
+
+    ns2:birthYear rdfs:label "year of birth" .
+
+    ns2:body-builder rdfs:label "body-builder" .
+
+    ns2:campaign-organizer a owl:NamedIndividual .
+
+    ns2:deathYear rdfs:label "year of death" .
+
+    ns2:photographer a owl:NamedIndividual .
+
+    ns2:CatholicUniversity ns2:ivyLeague "False" .
+
+    ns2:JeannieRipp ns2:lastName "Ripp" .
+
+    ns2:MichaelAllen ns2:spouse ns2:KaraKennedy .
+
+    ns2:Princeton a ns2:College .
+
+    ns2:ambassador a ns2:Profession ;
+        rdfs:label "ambassador" .
+
+    ns2:congressman rdfs:label "congressman" .
+
+    ns2:model a ns2:Profession .
+
+    ns2:volunteer a owl:NamedIndividual .
+
+    ns2:DavidTownsend a owl:NamedIndividual ;
+        ns2:firstName "David" .
+
+    ns2:LindaPotter a owl:NamedIndividual .
+
+    ns2:AlfredTucker a ns2:Person .
+
+    ns2:AlinaMojica ns2:spouse ns2:AnthonyShriver .
+
+    ns2:AndrewCuomo a ns2:Person ;
+        ns2:name "Andrew Cuomo" .
+
+    ns2:AristotleOnassis ns2:deathYear "1975" .
+
+    ns2:CarolynBessette ns2:gender ns2:female ;
+        ns2:lastName "Bessette" .
+
+    ns2:CartHood a owl:NamedIndividual ;
+        ns2:firstName "Cart" ;
+        ns2:gender ns2:male ;
+        ns2:name "Cart Hood" .
+
+    ns2:EdwinSchlossberg ns2:spouse ns2:CarolineKennedy .
+
+    ns2:JamesMcKelvy ns2:name "James McKelvy" .
+
+    ns2:JosephKennedyJr a ns2:Person ;
+        ns2:firstName "Joseph" ;
+        ns2:parent ns2:JosephKennedy .
+
+    ns2:KatherineGershman a owl:NamedIndividual ;
+        ns2:middleInitial "A" .
+
+    ns2:MatthewKennedy ns2:gender ns2:male ;
+        ns2:middleInitial "M" .
+
+    ns2:MollyStark ns2:firstName "Molly" .
+
+    ns2:SheilaBerner ns2:middleInitial "S" .
+
+    ns2:VictoriaGifford ns2:gender ns2:female .
+
+    ns2:VictoriaLawford ns2:parent ns2:PeterLawford .
+
+    ns2:VictoriaReggie a ns2:Person ;
+        ns2:middleName "Anne" ;
+        ns2:profession ns2:attorney .
+
+    ns2:VictoriaStrauss ns2:gender ns2:female .
+
+    ns2:ChristopherKennedy ns2:parent ns2:RobertKennedy .
+
+    ns2:EmilyBlack ns2:lastName "Black" .
+
+    ns2:JeffreyRuhe ns2:birthYear "1952" .
+
+    ns2:KathleenHKennedy ns2:almaMater ns2:UniversityOfNewMexico ;
+        ns2:firstName "Kathleen" ;
+        ns2:profession ns2:attorney ;
+        ns2:spouse ns2:DavidTownsend .
+
+    ns2:PatrickBKennedy ns2:middleName "Bouvier" .
+
+    ns2:WilliamSmith ns2:lastName "Smith" .
+
+    ns2:AmandaSmith ns2:gender ns2:female ;
+        ns2:spouse ns2:CartHood .
+
+    ns2:ArnoldSchwarzenegger ns2:lastName "Schwarzenegger" ;
+        ns2:middleName "Alois" .
+
+    ns2:EdwardKennedyJr a owl:NamedIndividual ;
+        ns2:almaMater ns2:Yale ;
+        ns2:profession ns2:attorney ;
+        ns2:suffix "Jr" .
+
+    ns2:MariaShriver ns2:middleInitial "O" ;
+        ns2:middleName "Owings" .
+
+    ns2:PatrickJKennedy ns2:middleInitial "J" ;
+        ns2:middleName "Joseph" ;
+        ns2:profession ns2:congressman .
+
+    ns2:RobinLawford ns2:lastName "Lawford" .
+
+    ns2:RoseKennedy a ns2:Person .
+
+    ns2:SydneyLawford ns2:parent ns2:PatriciaKennedy ;
+        ns2:spouse ns2:JamesMcKelvy .
+
+    ns2:ChristopherLawford ns2:lastName "Lawford" ;
+        ns2:middleName "Kennedy" ;
+        ns2:parent ns2:PeterLawford .
+
+    ns2:Harvard rdfs:label "Harvard University" .
+
+    ns2:JosephKennedyII ns2:birthYear "1952" ;
+        ns2:firstName "Joseph" .
+
+    ns2:KymSmith ns2:parent ns2:JeanKennedy .
+
+    ns2:MarkShriver ns2:name "Mark Shriver" .
+
+    ns2:MichaelKennedy ns2:middleInitial "L" .
+
+    ns2:RoryKennedy ns2:middleName "Elizabeth" .
+
+    ns2:DouglasKennedy ns2:gender ns2:male .
+
+    ns2:MaryCKennedy ns2:middleInitial "C" .
+
+    ns2:PeterLawford ns2:child ns2:SydneyLawford .
+
+    ns2:RobertShriverIII ns2:firstName "Robert" ;
+        ns2:name "Robert Shriver III" .
+
+    ns2:StephenSmith a owl:NamedIndividual ;
+        ns2:child ns2:StephenSmithJr ;
+        ns2:deathYear "1990" .
+
+    ns2:JohnKennedyJr ns2:lastName "Kennedy" .
+
+    ns2:RobertKennedyJr ns2:spouse ns2:MaryRichardson .
+
+    ns2:RobertShriver ns2:deathYear "2011" .
+
+    ns2:JacquelineBouvier a owl:NamedIndividual ;
+        ns2:middleInitial "L" .
+
+    ns2:EdwardKennedy ns2:almaMater ns2:UniversityOfVirginia ;
+        ns2:middleName "Moore" ;
+        ns2:spouse ns2:VirginiaBennett .
+
+    ns2:EuniceKennedy ns2:gender ns2:female ;
+        ns2:parent ns2:JosephKennedy .
+
+    ns2:JeanKennedy ns2:parent ns2:RoseFitzgerald ;
+        ns2:profession ns2:non-profit .
+
+    ns2:PatriciaKennedy ns2:firstName "Patricia" .
+
+    ns2:RoseFitzgerald ns2:almaMater ns2:SacredHeartConvent ;
+        ns2:child ns2:EdwardKennedy,
+            ns2:JosephKennedyJr ;
+        ns2:spouse ns2:JosephKennedy .
+
+    ns2:JosephKennedy a owl:NamedIndividual ;
+        ns2:child ns2:EdwardKennedy ;
+        ns2:middleName "Patrick" ;
+        ns2:profession ns2:ambassador .
+
+    ns2:College rdfs:label "College" .
+
+    ns2:EthelSkakel ns2:child ns2:MaryKKennedy ;
+        ns2:profession ns2:home-maker .
+
+    ns2:Profession rdfs:label "Profession" .
+
+    ns2:male a ns2:Gender .
+}
+
+ns1:graph_1 {
+    <http://www.topbraidcomposer.org/demos/kennedys/images/Patriciakennedylawford.jpg> a owl:NamedIndividual .
+
+    ns2:Lt-governor a owl:NamedIndividual .
+
+    ns2:attorney-general a ns2:Profession ;
+        rdfs:label "attorney-general" .
+
+    ns2:child rdfs:label "child" .
+
+    ns2:parent a owl:ObjectProperty .
+
+    ns2:profession rdfs:domain ns2:Person ;
+        rdfs:range ns2:Profession .
+
+    ns2:GeorgeWashingtonU a owl:NamedIndividual ;
+        ns2:ivyLeague "False" .
+
+    ns2:RosemontCollege a owl:NamedIndividual .
+
+    ns2:almaMater rdfs:domain ns2:Person .
+
+    ns2:banker a ns2:Profession .
+
+    ns2:business a ns2:Profession .
+
+    ns2:doctor a ns2:Profession .
+
+    ns2:governor a ns2:Profession .
+
+    ns2:lastName rdfs:label "last name" .
+
+    ns2:reporter a owl:NamedIndividual ;
+        rdfs:label "reporter" .
+
+    ns2:shipping a ns2:Profession .
+
+    ns2:GeorgetownUniversity a ns2:College .
+
+    ns2:UniversityOfConnecticut a ns2:College .
+
+    ns2:professor a ns2:Profession .
+
+    ns2:writer a ns2:Profession .
+
+    ns2:Brown rdfs:label "Brown University" .
+
+    ns2:MichaelAllen a owl:NamedIndividual ;
+        ns2:lastName "Allen" .
+
+    ns2:UniversityOfVirginia a ns2:College .
+
+    ns2:congressman a ns2:Profession .
+
+    ns2:DavidTownsend ns2:birthYear "1947" ;
+        ns2:spouse ns2:KathleenHKennedy .
+
+    ns2:LindaPotter ns2:gender ns2:female ;
+        ns2:middleName "Sophia" .
+
+    ns2:ManhattanvilleCollege rdfs:label "Manhattanville College" .
+
+    ns2:PaulHill a ns2:Person ;
+        ns2:spouse ns2:MaryCKennedy .
+
+    ns2:SheilaRauch ns2:middleName "Brewster" .
+
+    ns2:attorney a owl:NamedIndividual ;
+        rdfs:label "attorney" .
+
+    ns2:AlinaMojica ns2:firstName "Alina" .
+
+    ns2:AndrewCuomo ns2:firstName "Andrew" ;
+        ns2:spouse ns2:MaryKKennedy .
+
+    ns2:AristotleOnassis ns2:birthYear "1906" ;
+        ns2:profession ns2:shipping .
+
+    ns2:CarolynBessette a owl:NamedIndividual .
+
+    ns2:KatherineGershman ns2:name "Katherine Gershman" ;
+        ns2:profession ns2:professor .
+
+    ns2:MatthewKennedy ns2:birthYear "1965" ;
+        ns2:firstName "Matthew" ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:MollyStark ns2:birthYear "1968" .
+
+    ns2:SheilaBerner ns2:birthYear "1962" ;
+        ns2:lastName "Berner" .
+
+    ns2:VictoriaGifford ns2:middleName "Denise" .
+
+    ns2:VictoriaReggie ns2:name "Victoria Reggie" .
+
+    ns2:WilliamCavendish ns2:profession ns2:army .
+
+    ns2:AnthonyShriver ns2:middleName "Kennedy" ;
+        ns2:name "Anthony Shriver" .
+
+    ns2:DavidKennedy ns2:gender ns2:male ;
+        ns2:middleInitial "A" .
+
+    ns2:VictoriaLawford ns2:firstName "Victoria" .
+
+    ns2:AmandaSmith a owl:NamedIndividual .
+
+    ns2:ChristopherKennedy ns2:gender ns2:male ;
+        ns2:lastName "Kennedy" ;
+        ns2:middleInitial "G" ;
+        ns2:name "Christopher Kennedy" .
+
+    ns2:EdwardKennedyJr ns2:name "Edward Kennedy Jr" .
+
+    ns2:KaraKennedy ns2:name "Kara Kennedy" .
+
+    ns2:KathleenAKennedy ns2:gender ns2:female ;
+        ns2:parent ns2:JosephKennedy .
+
+    ns2:KathleenHKennedy a ns2:Person ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:MaryKKennedy ns2:profession ns2:non-profit .
+
+    ns2:PatrickJKennedy a owl:NamedIndividual ;
+        ns2:parent ns2:EdwardKennedy,
+            ns2:VirginiaBennett .
+
+    ns2:SydneyLawford ns2:name "Sydney Lawford" ;
+        ns2:parent ns2:PeterLawford .
+
+    ns2:CarolineKennedy ns2:almaMater ns2:Harvard .
+
+    ns2:ChristopherLawford ns2:firstName "Christopher" ;
+        ns2:name "Christopher Lawford" .
+
+    ns2:KymSmith ns2:gender ns2:female ;
+        ns2:name "Kym Smith" .
+
+    ns2:MariaShriver a ns2:Person,
+            owl:NamedIndividual ;
+        rdfs:label "Maria Shriver" ;
+        ns2:almaMater ns2:GeorgetownUniversity ;
+        ns2:name "Maria Shriver" .
+
+    ns2:TimothyShriver a ns2:Person ;
+        ns2:almaMater ns2:UniversityOfConnecticut ;
+        ns2:firstName "Timothy" ;
+        ns2:parent ns2:RobertShriver .
+
+    ns2:DouglasKennedy ns2:profession ns2:reporter .
+
+    ns2:JosephKennedyII ns2:spouse ns2:AnneKelly .
+
+    ns2:RobertShriverIII a owl:NamedIndividual .
+
+    ns2:RoryKennedy ns2:middleInitial "E" .
+
+    ns2:VirginiaBennett ns2:firstName "Virginia" ;
+        ns2:gender ns2:female .
+
+    ns2:JohnKennedyJr ns2:profession ns2:district-attorney .
+
+    ns2:MaryCKennedy ns2:firstName "Mary" ;
+        ns2:middleName "Courtney" .
+
+    ns2:PeterLawford ns2:deathYear "1984" ;
+        ns2:gender ns2:male .
+
+    ns2:StephenSmith ns2:lastName "Smith" .
+
+    ns2:RobertKennedyJr a ns2:Person ;
+        ns2:parent ns2:RobertKennedy .
+
+    ns2:JacquelineBouvier a ns2:Person ;
+        ns2:lastName "Bouvier" ;
+        ns2:photo <http://www.topbraidcomposer.org/demos/kennedys/images/175px-Whitehouseportraitjackie_curvecorrected.jpg> .
+
+    ns2:RobertShriver ns2:child ns2:MariaShriver ;
+        ns2:firstName "Robert" .
+
+    ns2:EdwardKennedy a owl:NamedIndividual ;
+        ns2:firstName "Edward" ;
+        ns2:parent ns2:RoseFitzgerald .
+
+    ns2:JeanKennedy ns2:birthYear "1928" ;
+        ns2:profession ns2:writer ;
+        ns2:spouse ns2:StephenSmith .
+
+    ns2:PatriciaKennedy ns2:child ns2:VictoriaLawford .
+
+    ns2:EuniceKennedy ns2:name "Eunice Kennedy" .
+
+    ns2:RoseFitzgerald ns2:child ns2:EuniceKennedy ;
+        ns2:lastName "Fitzgerald" .
+
+    ns2:JosephKennedy ns2:birthYear "1888" .
+
+    ns2:EthelSkakel ns2:child ns2:ChristopherKennedy,
+            ns2:JosephKennedyII,
+            ns2:RobertKennedyJr .
+
+    ns2:College rdfs:subClassOf owl:Thing .
+
+    ns2:RobertKennedy a owl:NamedIndividual ;
+        ns2:child ns2:RoryKennedy .
+
+    ns2:female a ns2:Gender .
+}
+
