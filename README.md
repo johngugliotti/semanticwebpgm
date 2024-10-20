@@ -50,5 +50,5 @@
 ```python csv_2_trig.py kennedys.csv```
 
 ### (3) Crack open the .trig file to view the quads.
-```kennedys.trig```
+<a href="https://github.com/johngugliotti/semanticwebpgm/blob/main/prototype/kennedys.trig">kennedys.trig</a>
 
