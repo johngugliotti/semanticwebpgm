@@ -1,1 +1,1 @@
-##  Semantic We Prototypes
+##  Semantic Web Prototypes
