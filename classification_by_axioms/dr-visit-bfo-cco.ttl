@@ -16,13 +16,20 @@
 <https://cco_test.com/model/NurseMaude> a ns2:Person ;
     ns1:RO_0000053 <https://cco_test.com/model/NurseMaude_Nurse_Provider> .
 
-<https://cco_test.com/model/Act_of_Medical_Care_Delivery> rdfs:subClassOf ns1:BFO_0000015 .
+<https://cco_test.com/model/WellVisitCareConsumer> a owl:Class ;
+    rdfs:subClassOf ns1:BFO_0000023 .
 
-<https://cco_test.com/model/DrBob_MD_Provider> a ns1:BFO_0000023 .
+<https://cco_test.com/model/WellVisitNursingProviderRole> a owl:Class ;
+    rdfs:subClassOf ns1:BFO_0000023 .
 
-<https://cco_test.com/model/Joe_patient> a ns1:BFO_0000023 .
+<https://cco_test.com/model/WellVisitPhysicianProviderRole> a owl:Class ;
+    rdfs:subClassOf ns1:BFO_0000023 .
 
-<https://cco_test.com/model/NurseMaude_Nurse_Provider> a ns1:BFO_0000023 .
+<https://cco_test.com/model/DrBob_MD_Provider> a <https://cco_test.com/model/WellVisitPhysicianProviderRole> .
+
+<https://cco_test.com/model/Joe_patient> a <https://cco_test.com/model/WellVisitCareConsumer> .
+
+<https://cco_test.com/model/NurseMaude_Nurse_Provider> a <https://cco_test.com/model/WellVisitNursingProviderRole> .
 
 <https://cco_test.com/model/hcdelivered_well_visit> a <https://cco_test.com/model/Act_of_Medical_Care_Delivery> ;
     ns1:BFO_0000055 <https://cco_test.com/model/DrBob_MD_Provider>,
@@ -31,17 +38,29 @@
     ns1:RO_0000057 <https://cco_test.com/model/DrBob>,
         <https://cco_test.com/model/Joe>,
         <https://cco_test.com/model/NurseMaude> ;
-    ns2:occurs_on _:N974f665fe9514c2cba517c45aea06022 .
+    ns2:occurs_on _:N64f8b55d71344fc587ee8bb73636f889 .
+
+<https://cco_test.com/model/Act_of_Medical_Care_Delivery> rdfs:subClassOf ns1:BFO_0000015 .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns1:RO_0000057 ;
-    owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget <https://cco_test.com/model/Joe> .
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource _:N22005955ed60401bbf799811c6f1df25 ;
+    owl:annotatedTarget owl:Restriction .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns1:RO_0000057 ;
+    owl:annotatedProperty rdf:type ;
     owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget <https://cco_test.com/model/DrBob> .
+    owl:annotatedTarget <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty owl:onProperty ;
+    owl:annotatedSource _:N86a964a5d9a7479a96012219da42e66b ;
+    owl:annotatedTarget ns1:BFO_0000054 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty owl:onProperty ;
+    owl:annotatedSource _:N22005955ed60401bbf799811c6f1df25 ;
+    owl:annotatedTarget ns1:BFO_0000054 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty ns1:RO_0000057 ;
@@ -49,49 +68,44 @@
     owl:annotatedTarget <https://cco_test.com/model/NurseMaude> .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty rdf:type ;
-    owl:annotatedSource <https://cco_test.com/model/Joe_patient> ;
-    owl:annotatedTarget ns1:BFO_0000023 .
+    owl:annotatedProperty owl:someValuesFrom ;
+    owl:annotatedSource _:N22005955ed60401bbf799811c6f1df25 ;
+    owl:annotatedTarget <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns2:has_datetime_value ;
-    owl:annotatedSource _:N58d2a0412d674cdb828258b12975533c ;
-    owl:annotatedTarget "2025-04-01T11:00:00"^^xsd:dateTime .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty ns1:RO_0000053 ;
-    owl:annotatedSource <https://cco_test.com/model/Joe> ;
-    owl:annotatedTarget <https://cco_test.com/model/Joe_patient> .
-
-[] a owl:Axiom ;
-    owl:annotatedProperty ns1:RO_0000053 ;
-    owl:annotatedSource <https://cco_test.com/model/NurseMaude> ;
+    owl:annotatedProperty ns1:BFO_0000055 ;
+    owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
     owl:annotatedTarget <https://cco_test.com/model/NurseMaude_Nurse_Provider> .
 
 [] a owl:Axiom ;
+    owl:annotatedProperty ns2:interval_finishes ;
+    owl:annotatedSource _:N64f8b55d71344fc587ee8bb73636f889 ;
+    owl:annotatedTarget _:N0c555c847df7418782c3e052660da799 .
+
+[] a owl:Axiom ;
     owl:annotatedProperty rdf:type ;
-    owl:annotatedSource <https://cco_test.com/model/NurseMaude_Nurse_Provider> ;
-    owl:annotatedTarget ns1:BFO_0000023 .
+    owl:annotatedSource _:N0c555c847df7418782c3e052660da799 ;
+    owl:annotatedTarget ns1:BFO_0000018 .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns2:interval_starts ;
-    owl:annotatedSource _:N974f665fe9514c2cba517c45aea06022 ;
-    owl:annotatedTarget _:N040366614d3143bd834e8823771f640c .
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource <https://cco_test.com/model/WellVisitNursingProviderRole> ;
+    owl:annotatedTarget owl:Class .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns2:occurs_on ;
+    owl:annotatedProperty ns1:BFO_0000055 ;
     owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget _:N974f665fe9514c2cba517c45aea06022 .
+    owl:annotatedTarget <https://cco_test.com/model/DrBob_MD_Provider> .
 
 [] a owl:Axiom ;
     owl:annotatedProperty rdf:type ;
-    owl:annotatedSource <https://cco_test.com/model/DrBob> ;
-    owl:annotatedTarget ns2:Person .
+    owl:annotatedSource <https://cco_test.com/model/WellVisitCareConsumer> ;
+    owl:annotatedTarget owl:Class .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty rdf:type ;
-    owl:annotatedSource <https://cco_test.com/model/Joe> ;
-    owl:annotatedTarget ns2:Person .
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedSource <https://cco_test.com/model/WellVisitCareConsumer> ;
+    owl:annotatedTarget ns1:BFO_0000023 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty rdfs:subClassOf ;
@@ -99,24 +113,54 @@
     owl:annotatedTarget ns1:BFO_0000015 .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty rdf:type ;
+    owl:annotatedProperty ns1:RO_0000053 ;
     owl:annotatedSource <https://cco_test.com/model/NurseMaude> ;
+    owl:annotatedTarget <https://cco_test.com/model/NurseMaude_Nurse_Provider> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty ns1:RO_0000057 ;
+    owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
+    owl:annotatedTarget <https://cco_test.com/model/DrBob> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource <https://cco_test.com/model/Joe> ;
     owl:annotatedTarget ns2:Person .
 
 [] a owl:Axiom ;
+    owl:annotatedProperty owl:onProperty ;
+    owl:annotatedSource _:Nd2b639eb6f3d4699a6b54aab14b50ee2 ;
+    owl:annotatedTarget ns1:BFO_0000054 .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedSource <https://cco_test.com/model/WellVisitNursingProviderRole> ;
+    owl:annotatedTarget ns1:BFO_0000023 .
+
+[] a owl:Axiom ;
     owl:annotatedProperty rdf:type ;
-    owl:annotatedSource _:N040366614d3143bd834e8823771f640c ;
-    owl:annotatedTarget ns1:BFO_0000018 .
+    owl:annotatedSource <https://cco_test.com/model/NurseMaude_Nurse_Provider> ;
+    owl:annotatedTarget <https://cco_test.com/model/WellVisitNursingProviderRole> .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns1:BFO_0000055 ;
+    owl:annotatedProperty ns2:occurs_on ;
     owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget <https://cco_test.com/model/Joe_patient> .
+    owl:annotatedTarget _:N64f8b55d71344fc587ee8bb73636f889 .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns2:has_datetime_value ;
-    owl:annotatedSource _:N040366614d3143bd834e8823771f640c ;
-    owl:annotatedTarget "2025-04-01T10:00:00"^^xsd:dateTime .
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource <https://cco_test.com/model/DrBob_MD_Provider> ;
+    owl:annotatedTarget <https://cco_test.com/model/WellVisitPhysicianProviderRole> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource <https://cco_test.com/model/WellVisitPhysicianProviderRole> ;
+    owl:annotatedTarget owl:Class .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty ns2:interval_starts ;
+    owl:annotatedSource _:N64f8b55d71344fc587ee8bb73636f889 ;
+    owl:annotatedTarget _:N4fa0a1668867429d8ed9e74cf1cdc830 .
 
 [] a owl:Axiom ;
     owl:annotatedProperty rdf:type ;
@@ -124,24 +168,59 @@
     owl:annotatedTarget <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns1:BFO_0000055 ;
+    owl:annotatedProperty ns1:RO_0000057 ;
     owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget <https://cco_test.com/model/NurseMaude_Nurse_Provider> .
+    owl:annotatedTarget <https://cco_test.com/model/Joe> .
 
 [] a owl:Axiom ;
     owl:annotatedProperty rdf:type ;
-    owl:annotatedSource _:N58d2a0412d674cdb828258b12975533c ;
+    owl:annotatedSource <https://cco_test.com/model/NurseMaude> ;
+    owl:annotatedTarget ns2:Person .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource <https://cco_test.com/model/Joe_patient> ;
+    owl:annotatedTarget <https://cco_test.com/model/WellVisitCareConsumer> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty owl:someValuesFrom ;
+    owl:annotatedSource _:N86a964a5d9a7479a96012219da42e66b ;
+    owl:annotatedTarget <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource _:N4fa0a1668867429d8ed9e74cf1cdc830 ;
     owl:annotatedTarget ns1:BFO_0000018 .
 
 [] a owl:Axiom ;
+    owl:annotatedProperty ns2:has_datetime_value ;
+    owl:annotatedSource _:N0c555c847df7418782c3e052660da799 ;
+    owl:annotatedTarget "2025-04-01T11:00:00"^^xsd:dateTime .
+
+[] a owl:Axiom ;
     owl:annotatedProperty rdf:type ;
-    owl:annotatedSource <https://cco_test.com/model/DrBob_MD_Provider> ;
+    owl:annotatedSource _:N86a964a5d9a7479a96012219da42e66b ;
+    owl:annotatedTarget owl:Restriction .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty ns1:BFO_0000055 ;
+    owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
+    owl:annotatedTarget <https://cco_test.com/model/Joe_patient> .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource <https://cco_test.com/model/DrBob> ;
+    owl:annotatedTarget ns2:Person .
+
+[] a owl:Axiom ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedSource <https://cco_test.com/model/WellVisitPhysicianProviderRole> ;
     owl:annotatedTarget ns1:BFO_0000023 .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns2:interval_finishes ;
-    owl:annotatedSource _:N974f665fe9514c2cba517c45aea06022 ;
-    owl:annotatedTarget _:N58d2a0412d674cdb828258b12975533c .
+    owl:annotatedProperty rdf:type ;
+    owl:annotatedSource _:Nd2b639eb6f3d4699a6b54aab14b50ee2 ;
+    owl:annotatedTarget owl:Restriction .
 
 [] a owl:Axiom ;
     owl:annotatedProperty ns1:RO_0000053 ;
@@ -149,21 +228,38 @@
     owl:annotatedTarget <https://cco_test.com/model/DrBob_MD_Provider> .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty rdf:type ;
-    owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+    owl:annotatedProperty ns2:has_datetime_value ;
+    owl:annotatedSource _:N4fa0a1668867429d8ed9e74cf1cdc830 ;
+    owl:annotatedTarget "2025-04-01T10:00:00"^^xsd:dateTime .
 
 [] a owl:Axiom ;
-    owl:annotatedProperty ns1:BFO_0000055 ;
-    owl:annotatedSource <https://cco_test.com/model/hcdelivered_well_visit> ;
-    owl:annotatedTarget <https://cco_test.com/model/DrBob_MD_Provider> .
+    owl:annotatedProperty ns1:RO_0000053 ;
+    owl:annotatedSource <https://cco_test.com/model/Joe> ;
+    owl:annotatedTarget <https://cco_test.com/model/Joe_patient> .
 
-_:N040366614d3143bd834e8823771f640c a ns1:BFO_0000018 ;
-    ns2:has_datetime_value "2025-04-01T10:00:00"^^xsd:dateTime .
+[] a owl:Axiom ;
+    owl:annotatedProperty owl:someValuesFrom ;
+    owl:annotatedSource _:Nd2b639eb6f3d4699a6b54aab14b50ee2 ;
+    owl:annotatedTarget <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
 
-_:N58d2a0412d674cdb828258b12975533c a ns1:BFO_0000018 ;
+_:N22005955ed60401bbf799811c6f1df25 a owl:Restriction ;
+    owl:onProperty ns1:BFO_0000054 ;
+    owl:someValuesFrom <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+
+_:N86a964a5d9a7479a96012219da42e66b a owl:Restriction ;
+    owl:onProperty ns1:BFO_0000054 ;
+    owl:someValuesFrom <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+
+_:Nd2b639eb6f3d4699a6b54aab14b50ee2 a owl:Restriction ;
+    owl:onProperty ns1:BFO_0000054 ;
+    owl:someValuesFrom <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+
+_:N0c555c847df7418782c3e052660da799 a ns1:BFO_0000018 ;
     ns2:has_datetime_value "2025-04-01T11:00:00"^^xsd:dateTime .
 
-_:N974f665fe9514c2cba517c45aea06022 ns2:interval_finishes _:N58d2a0412d674cdb828258b12975533c ;
-    ns2:interval_starts _:N040366614d3143bd834e8823771f640c .
+_:N4fa0a1668867429d8ed9e74cf1cdc830 a ns1:BFO_0000018 ;
+    ns2:has_datetime_value "2025-04-01T10:00:00"^^xsd:dateTime .
+
+_:N64f8b55d71344fc587ee8bb73636f889 ns2:interval_finishes _:N0c555c847df7418782c3e052660da799 ;
+    ns2:interval_starts _:N4fa0a1668867429d8ed9e74cf1cdc830 .
 
