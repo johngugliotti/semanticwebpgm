@@ -1,0 +1,36 @@
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+@prefix ns2: <http://www.ontologyrepository.com/CommonCoreOntologies/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cco_test.com/model/hcdelivered_well_visit> a <https://cco_test.com/model/Act_of_Medical_Care_Delivery> ;
+    ns1:BFO_0000055 <https://cco_test.com/model/DrBob_MD_Provider>,
+        <https://cco_test.com/model/Joe_patient>,
+        <https://cco_test.com/model/NurseMaude_Nurse_Provider> ;
+    ns1:RO_0000057 <https://cco_test.com/model/DrBob>,
+        <https://cco_test.com/model/Joe>,
+        <https://cco_test.com/model/NurseMaude> ;
+    ns2:occurs_on [ ns2:interval_finishes [ a ns1:BFO_0000018 ;
+                    ns2:has_datetime_value "2025-04-01T11:00:00"^^xsd:dateTime ] ;
+            ns2:interval_starts [ a ns1:BFO_0000018 ;
+                    ns2:has_datetime_value "2025-04-01T10:00:00"^^xsd:dateTime ] ] .
+
+<https://cco_test.com/model/s99skjksdjljkerj> a <https://cco_test.com/model/Act_of_Medical_Care_Delivery> .
+
+<https://cco_test.com/model/DrBob> a ns2:Person ;
+    ns1:RO_0000053 <https://cco_test.com/model/DrBob_MD_Provider> .
+
+<https://cco_test.com/model/Joe> a ns2:Person ;
+    ns1:RO_0000053 <https://cco_test.com/model/Joe_patient> .
+
+<https://cco_test.com/model/NurseMaude> a ns2:Person ;
+    ns1:RO_0000053 <https://cco_test.com/model/NurseMaude_Nurse_Provider> .
+
+<https://cco_test.com/model/Act_of_Medical_Care_Delivery> rdfs:subClassOf ns1:BFO_0000015 .
+
+<https://cco_test.com/model/DrBob_MD_Provider> a ns1:BFO_0000023 .
+
+<https://cco_test.com/model/Joe_patient> a ns1:BFO_0000023 .
+
+<https://cco_test.com/model/NurseMaude_Nurse_Provider> a ns1:BFO_0000023 .
+
